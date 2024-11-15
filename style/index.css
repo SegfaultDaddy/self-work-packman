@@ -1,0 +1,27 @@
+body
+{
+    margin: 0;
+}
+
+main
+{
+    h1
+    {
+        text-align: center;
+    }
+}
+
+#ScoreBar
+{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+#GameCanvas
+{
+    border: 1px solid black;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+}
