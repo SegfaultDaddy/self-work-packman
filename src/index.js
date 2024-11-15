@@ -2,8 +2,8 @@ const canvas = document.getElementById("GameCanvas")
 const canvasContext = canvas.getContext("2d")
 const scoreItem = document.getElementById("ScoreItem")
 
-canvas.width = window.innerWidth / 2
-canvas.height = canvas.width
+canvas.width = 40 * 11
+canvas.height = 40 * 13
 
 const speed = 4
 const ghostSpeed = 2
